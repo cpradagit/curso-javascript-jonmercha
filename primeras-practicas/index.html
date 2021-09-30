@@ -30,7 +30,53 @@
             let musica2 = "Pop";
             console.log("Variable Música dentro del bloque",musica2);
         }
-        console.log("Variable Música después deñ bloque",musica2)
+        console.log("Variable Música después del bloque",musica2)
+        //comienzo de la clase 4
+        let VARIABLE_VACIA;
+        const PI = 3.141516;
+        const NUEVE=9;
+        VARIABLE_VACIA = "variable llena"
+        console.log(PI);
+        console.log(VARIABLE_VACIA);
+
+        let objeto = {
+            nombre: "jon",
+            edad: 35
+        }
+
+        let colores = ["blanco","negro","azul"];
+
+        console.log(objeto)
+        console.log(colores)
+
+        objeto.correo = "christian.prada@cenati.com";
+        colores.push("anaranjado")
+
+        console.log(objeto)
+        console.log(colores)
+
+        //cadenas de texto "Strings"
+        let nombre ="Christian"
+        let apellido = "Prada"
+        //manera muy formal de declaración de variable que ya casi no se usa
+        let saludo = new String("Hola mundo")
+        let lorem = "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, et dolorum...   "
+        console.log(nombre, apellido, saludo)
+        console.log(
+            nombre.length, 
+            apellido.length, 
+            saludo.length,
+            //atributos que fijan el texto en mayusculas o minusculas
+            nombre.toUpperCase(),
+            apellido.toLowerCase(),
+            lorem.includes("amet"),
+            lorem.includes("jon"),
+            lorem,
+            //este atributo elimina los espacios en blanco antes y despues del texto
+            lorem.trim(),
+            //este atributo separa con coma cada parte del texto que cumpla con la caracteristica incluida en las comillas
+            lorem.split(" "),
+            );
 
     </script>
 </body>
