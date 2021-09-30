@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos JavaScript</title>
+</head>
+<body>
+    <h1>Fundamentos JavaScript</h1>
+    <script>
+        var hola ="Hola mundo";
+        let hello = "Hello World";
+        console.log(hola);
+        console.log(hello);
+        //la variable window almacena toda la información necesaria para que el navegador funcione. la declaracion de variable VAR lleva la variable a ese ambito, la hace global. La declaración let solo crea la variable a nivel "local"
+        console.log(window);       
+        console.log(window.hola);       
+        console.log(window.hello);
+        //Ambiot de bloque
+        var musica ="Rock"
+        console.log("Variable Música antes del bloque", musica)
+        {
+            var musica = "Pop";
+            console.log("Variable Música dentro del bloque",musica);
+        }
+        console.log("Variable Música después deñ bloque",musica)
+        let musica2 ="Rock"
+        console.log("Variable Música antes del bloque", musica2)
+        {
+            let musica2 = "Pop";
+            console.log("Variable Música dentro del bloque",musica2);
+        }
+        console.log("Variable Música después deñ bloque",musica2)
+
+    </script>
+</body>
+</html>
